@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		242A6CA41FA7B8A300D7CAC6 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242A6CA31FA7B8A300D7CAC6 /* CircularTransition.swift */; };
 		2489655D1F9C5D84005A52B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489655C1F9C5D84005A52B1 /* AppDelegate.swift */; };
 		2489655F1F9C5D84005A52B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489655E1F9C5D84005A52B1 /* ViewController.swift */; };
 		248965621F9C5D84005A52B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 248965601F9C5D84005A52B1 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		248965721F9C5D84005A52B1 /* CircularAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 248965711F9C5D84005A52B1 /* CircularAnimationTests.swift */; };
 		2489657D1F9C5D84005A52B1 /* CircularAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489657C1F9C5D84005A52B1 /* CircularAnimationUITests.swift */; };
 		2489658E1F9C5F32005A52B1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2489658D1F9C5F32005A52B1 /* SecondViewController.swift */; };
-		248965921F9D3A2B005A52B1 /* RomioSplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 248965911F9D3A2B005A52B1 /* RomioSplash.png */; };
 		24E224891F9D3BA300F14D51 /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E224881F9D3BA300F14D51 /* UIColor+extensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		242A6CA31FA7B8A300D7CAC6 /* CircularTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
 		248965591F9C5D84005A52B1 /* CircularAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2489655C1F9C5D84005A52B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2489655E1F9C5D84005A52B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		2489657C1F9C5D84005A52B1 /* CircularAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularAnimationUITests.swift; sourceTree = "<group>"; };
 		2489657E1F9C5D84005A52B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2489658D1F9C5F32005A52B1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		248965911F9D3A2B005A52B1 /* RomioSplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RomioSplash.png; path = ../../../../../Desktop/RomioSplash.png; sourceTree = "<group>"; };
 		24E224881F9D3BA300F14D51 /* UIColor+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 		2489655B1F9C5D84005A52B1 /* CircularAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				248965911F9D3A2B005A52B1 /* RomioSplash.png */,
 				2489655C1F9C5D84005A52B1 /* AppDelegate.swift */,
 				2489655E1F9C5D84005A52B1 /* ViewController.swift */,
 				248965601F9C5D84005A52B1 /* Main.storyboard */,
@@ -112,6 +111,7 @@
 				248965681F9C5D84005A52B1 /* Info.plist */,
 				2489658D1F9C5F32005A52B1 /* SecondViewController.swift */,
 				24E224881F9D3BA300F14D51 /* UIColor+extensions.swift */,
+				242A6CA31FA7B8A300D7CAC6 /* CircularTransition.swift */,
 			);
 			path = CircularAnimation;
 			sourceTree = "<group>";
@@ -243,7 +243,6 @@
 			files = (
 				248965671F9C5D84005A52B1 /* LaunchScreen.storyboard in Resources */,
 				248965641F9C5D84005A52B1 /* Assets.xcassets in Resources */,
-				248965921F9D3A2B005A52B1 /* RomioSplash.png in Resources */,
 				248965621F9C5D84005A52B1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				242A6CA41FA7B8A300D7CAC6 /* CircularTransition.swift in Sources */,
 				2489658E1F9C5F32005A52B1 /* SecondViewController.swift in Sources */,
 				2489655F1F9C5D84005A52B1 /* ViewController.swift in Sources */,
 				2489655D1F9C5D84005A52B1 /* AppDelegate.swift in Sources */,
